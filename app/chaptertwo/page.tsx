@@ -52,7 +52,7 @@ export default function Example() {
               <Link
                 href={s.href}
                 target="_blank"
-                className="p-4 relative h-64 flex flex-col items-center gap-4 duration-700 group md:gap-8 md:py-2 lg:pb-24 md:p-2 cursor-pointer"
+                className="p-1 relative h-64 flex flex-col items-center gap-4 duration-700 group  cursor-pointer" /*'lg:pb-24 md:gap-8 md:py-2 md:p-2' */
               >
                 <div className="z-10 flex flex-col items-center justify-center h-screen cursor-pointer">
                 <span className=" xl:text-3xl lg:text-2xl md:text-xl font-custom duration-150  text-white group-hover:text-primary cursor-pointer">
