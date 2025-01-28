@@ -36,29 +36,27 @@ export default function Example() {
       <Navigation />
 
       {/* Page Content */}
-      <div className="container mx-auto flex flex-col items-center px-4 py-16">
+      <div className="container mx-auto flex flex-col items-center px-4 py-16 sm:py-24 md:py-32">
+
         {/* Title */}
-        <h1 className="text-3xl py-12 font-custom text-center text-white sm:text-4xl lg:text-5xl mb-12">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl py-12 font-custom text-center text-white mb-12">
           Chapter 1: ABBYS
         </h1>
 
         {/* Cards Column */}
-        <div className="flex flex-col w-3/5 gap-8 font-custom">
+        <div className="flex flex-col w-full sm:w-4/5 md:w-3/5 gap-8 font-custom">
           {socials.map((s) => (
-            <Card 
-            key={s.handle}
-            background={s.background}
-            >
+            <Card key={s.handle} background={s.background}>
               <Link
                 href={s.href}
                 target="_blank"
-                className="p-1 relative h-64 flex flex-col items-center gap-4 duration-700 group  cursor-pointer" /*'lg:pb-24 md:gap-8 md:py-2 md:p-2' */
+                className="p-4 sm:p-6 md:p-8 relative h-64 sm:h-72 md:h-80 lg:h-96 flex flex-col items-center gap-4 duration-700 group cursor-pointer"
               >
-                <div className="z-10 flex flex-col items-center justify-center h-screen cursor-pointer">
-                  <span className=" xl:text-3xl lg:text-2xl md:text-xl font-custom duration-150  text-white group-hover:text-primary cursor-pointer">
+                <div className="z-10 flex flex-col items-center justify-center h-full cursor-pointer">
+                  <span className="text-2xl sm:text-3xl md:text-4xl font-custom duration-150 text-white group-hover:text-primary cursor-pointer">
                     {s.handle}
                   </span>
-                  <span className="mt-4 xl:text-xl lg:text-lg md:text-md text-center duration-1000 text-white group-hover:text-primary cursor-pointer">
+                  <span className="mt-2 sm:mt-4 text-lg sm:text-xl md:text-2xl text-center duration-1000 text-white group-hover:text-primary cursor-pointer">
                     {s.label}
                   </span>
                 </div>

@@ -24,25 +24,22 @@ export default function Example() {
       <Navigation />
 
       {/* Page Content */}
-      <div className="container mx-auto flex flex-col items-center py-32">
+      <div className="container mx-auto flex flex-col items-center py-16 sm:py-24 md:py-32">
 
         {/* Cards Column */}
-        <div className="flex flex-col w-3/5 gap-8 font-custom">
+        <div className="flex flex-col w-full sm:w-4/5 md:w-3/5 gap-8 font-custom">
           {socials.map((s) => (
-            <Card 
-            key={s.handle}
-            background={s.background}
-            >
+            <Card key={s.handle} background={s.background}>
               <Link
                 href={s.href}
                 target="_blank"
-                className="p-4 relative h-80 flex flex-col items-center gap-4 duration-700 group  cursor-pointer" /*md:gap-8 md:py-4 lg:pb-24 md:p-2 */
+                className="p-4 relative h-64 sm:h-72 md:h-80 lg:h-96 flex flex-col items-center gap-4 duration-700 group cursor-pointer"
               >
-                <div className="z-10 flex flex-col items-center justify-center h-screen cursor-pointer">
-                <span className=" xl:text-3xl lg:text-2xl md:text-xl font-custom duration-150 text-white group-hover:text-primary cursor-pointer">
+                <div className="z-10 flex flex-col items-center justify-center h-full cursor-pointer">
+                  <span className="text-2xl sm:text-3xl lg:text-4xl font-custom duration-150 text-white group-hover:text-primary cursor-pointer">
                     {s.handle}
                   </span>
-                  <span className="mt-4 xl:text-xl lg:text-lg md:text-md text-center duration-1000 text-white group-hover:text-primary cursor-pointer">
+                  <span className="mt-2 sm:mt-4 text-lg sm:text-xl text-center duration-1000 text-white group-hover:text-primary cursor-pointer">
                     {s.label}
                   </span>
                 </div>
