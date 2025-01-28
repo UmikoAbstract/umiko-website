@@ -10,11 +10,11 @@ export const metadata: Metadata = {
     title: "UMIKO",
     description:
       "One of the fists anime project on Abstract Chain",
-    url: "https://umikoabs.com",
+    url: "https://umikonft.com",
     siteName: "UMIKO",
     images: [
       {
-        url: "umikoabs.com.png",
+        url: "umikonft.com.png",
         width: 1920,
         height: 1080,
       },
