@@ -55,10 +55,10 @@ export default function Example() {
                 className="p-4 relative h-64 flex flex-col items-center gap-4 duration-700 group md:gap-8 md:py-4 lg:pb-24 md:p-2 cursor-pointer"
               >
                 <div className="z-10 flex flex-col items-center justify-center h-screen cursor-pointer">
-                  <span className="lg:text-xl font-custom duration-150 xl:text-xl text-white group-hover:text-primary cursor-pointer">
+                  <span className="m:text-xl lg:text-2xl font-custom duration-150 xl:text-3xl text-white group-hover:text-primary cursor-pointer">
                     {s.handle}
                   </span>
-                  <span className="mt-4 text-2xl text-center duration-1000 text-white group-hover:text-primary cursor-pointer">
+                  <span className="mt-4 lg:text-lg xl:text-xl m:text-ms text-center duration-1000 text-white group-hover:text-primary cursor-pointer">
                     {s.label}
                   </span>
                 </div>
