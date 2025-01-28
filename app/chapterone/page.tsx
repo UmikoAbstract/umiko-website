@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/cardxl";
+import Head from "next/head";
 
 const socials = [
   {
@@ -33,6 +34,10 @@ const socials = [
 export default function Example() {
   return (
     <div className="bg-black min-h-screen">
+      <Head>
+        <title>Chapter 1</title> {/* Change the title here */}
+        <meta name="One of the firsts anime project on Abstract Chain" content="Learn more about Umiko." />
+      </Head>
       <Navigation />
 
       {/* Page Content */}

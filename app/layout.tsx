@@ -5,11 +5,11 @@ export const metadata: Metadata = {
     default: "UMIKO",
     template: "%s | UMIKO",
   },
-  description: "One of the fists anime project on Abstract Chain",
+  description: "One of the firsts anime project on Abstract Chain",
   openGraph: {
     title: "UMIKO",
     description:
-      "One of the fists anime project on Abstract Chain",
+      "One of the firsts anime project on Abstract Chain",
     url: "https://umikonft.com",
     siteName: "UMIKO",
     images: [
