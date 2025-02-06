@@ -17,18 +17,6 @@ const socials = [
     label: "Founder-CMO",
     handle: "@shad0wjer",
   },
-  {
-    image: "/zznft.jpg",
-    href: "https://x.com/Zz7_NFT",
-    label: "Collab Manager",
-    handle: "@Zz7_NFT",
-  },
-  {
-    image: "/mario.jpg",
-    href: "https://x.com/ItsMarioSZN",
-    label: "Community Manager",
-    handle: "@ItsMarioSZN",
-  },
 ];
 
 export default function Example() {
@@ -68,21 +56,6 @@ export default function Example() {
           </p>
           <p className="mt-2 text-sm font-custom text-gray-300 sm:text-base lg:text-lg">
           Umiko is not just a product of our craft; it is a living testament to the belief that even the smallest group of like-minded individuals, united by a common dream, can achieve the highest standards of quality. Through ambition and perseverance we have brought this vision to life, showcasing the strength of collective passion
-          </p>
-          <h1 className="text-xl font-custom mt-8 text-white sm:text-xl lg:text-2xl">
-           Zz7_NFT:
-          </h1>
-          <p className="mt-2 text-sm font-custom text-gray-300 sm:text-base lg:text-lg">
-          The experienced Collab Manager. Well-known in the web3 space, worked with a lot of projects before.          
-          </p>
-          <h1 className="text-xl font-custom mt-8 text-white sm:text-xl lg:text-2xl">
-           Mario:
-          </h1>
-          <p className="mt-2 text-sm font-custom text-gray-300 sm:text-base lg:text-lg">
-          NFT Strategist | Abstract Creator
-          </p>
-          <p className=" text-sm font-custom text-gray-300 sm:text-base lg:text-lg">
-          Dedicated to advancing community engagement and the potential of Abstract, with a focus on innovative creation.         
           </p>
         </div>
 
