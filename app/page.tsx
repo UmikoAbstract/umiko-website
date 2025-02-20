@@ -30,14 +30,7 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-2xl text-white drop-shadow-xl">
-          Soon on{" "}
-          <Link
-            target="_blank"
-            href="https://abs.xyz/"
-            className="underline duration-500 hover:text-primary cursor-pointer drop-shadow-xl"
-          >
-            Abstract
-          </Link>
+          Soon on ETH
         </h2>
         {/* Social Media Links */}
         <div className="mt-4 flex justify-center gap-6 ">

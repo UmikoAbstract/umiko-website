@@ -13,9 +13,9 @@ const socials = [
   },
   {
     background: "/card2two.png",
-    href: "https://x.com/AbstractChain",
+    href: "https://x.com/MagicEden",
     label: "Coming soon…",
-    handle: "ABSTRACT ECOSYSTEM PARTNERSHIPS",
+    handle: "LAUNCHPAD PARTNERSHIP",
   },
   {
     background: "/card2three.png",
@@ -36,7 +36,7 @@ export default function Example() {
     <div className="bg-black min-h-screen">
       <Head>
         <title>Chapter 2</title> {/* Change the title here */}
-        <meta name="One of the firsts anime project on Abstract Chain" content="Learn more about Umiko." />
+        <meta name="The Umiko world is starting here" content="Learn more about Umiko." />
       </Head>
       <Navigation />
 
